@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Animation2 {
+            border: 01px solid red;
+            margin: auto;
+            font-size: 50px;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+            width: 380px;
+            height: 500px;
+            text-align: center;
+            text-shadow: 0px, 0px, 0px, grey;
+            animation-direction: alternate-reverse;
+            box-shadow: 0px, 0px, 0px, grey;
+            animation-name: text;
+            animation-direction: normal;
+            animation-delay: 1s;
+            background-color: violet;
+            color: red;
+        }
+
+        @keyframes text {
+            from {
+                opacity: 0;
+            }
+            to {
+
+                width: 1000px;
+                font-size: 150px;
+                color: blue;
+                text-shadow: 15px 15px 4px gray;
+                background-color: aqua;
+                box-shadow: 20px 20px 10px gray;
+            }
+        }
+
+        .box8 {
+            border: 5px solid black;
+            background-color: aqua;
+        }
+
+        .image-box {
+            float: left;
+            color: antiquewhite;
+        }
+
+        .nav {
+            border: 5px solid black;
+            color: aqua;
+        }
+
+        .text {
+            color: red;
+        }
+
+        .text8 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: red;
+            border: 05px solid black;
+            background-color: aqua;
+        }
+
+        .text3 {
+            margin-right: 95px;
+            text-decoration: none;
+        }
+
+        .text4 {
+            margin-right: 95px;
+            text-decoration: none;
+        }
+
+        .text5 {
+            margin-right: 95px;
+            text-decoration: none;
+        }
+
+        .text6 {
+            margin-right: 95px;
+        }
+
+        .text7 {
+            margin-right: 95px;
+        }
+
+        .bgimg1 {
+            box-sizing: border-box;
+            height: 60%;
+            width: 100%;
+        }
+
+        .second {
+            box-sizing: border-box;
+
+        }
+
+        .bgimg2 {
+            height: 60%;
+            width: 100%;
+            float: right;
+        }
+
+        bgimg3 {
+            height: 60%;
+            width: 100%;
+        }
+
+        .bgimg4 {
+            height: 60%;
+            width: 100%;
+        }
+
+        .box11 {
+            height: 100%;
+            width: 53%;
+            padding-Right: 35%;
+        }
+
+        .box10 {
+            background-color: rgb(182, 15, 15);
+            width: fit-content;
+            margin-left: 20px;
+        }
+
+        button {
+            margin-right: 0px;
+        }
+
+        .num2 {
+            width: 500px;
+            height: 450px;
+            border: 5px solid navy;
+            border-radius: 50%;
+            background-size: 100%;
+            margin: auto;
+        }
+        .num2:hover {
+            opacity: 0.3%;
+            border: 5px solid red;
+            border-radius: 50%;
+        }
+        .num1 {
+            width: 500px;
+            height: 450px;
+            border: 5px solid navy;
+            margin: auto;
+            border-radius: 50%;
+            background: url('image/images.jpg')no-repeat;
+            background-size: 100%;
+        }
+        .div1 {
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .animaimg1 {
+            animation-direction: normal;
+            animation: infinite;
+            animation-duration: 1s;
+            animation-timing-function: 10s;
+
+        }
+
+        .animaimg ease {
+            animation: alternate;
+            animation-duration: 2s;
+            animation-delay: 5s;
+            opacity: 0.3%
+        }
+
+        .animaimg easein {
+            animation: alternate;
+            animation-duration: 2s;
+            animation-iteration-count: 2;
+            opacity: 0.3%
+        }
+
+
+        .animaimg easeout {
+            animation: alternate;
+            opacity: 0.3%
+        }
+
+        .animaimg ease in-out {
+            animation: alternate;
+            transform: ;
+            opacity: 0.3%;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .boxes {
+            text-align: right;
+
+            .mr {
+                float: right;
+            }
+
+            .mr1 {
+                float: left;
+            }
+        }
+     .boxlarge
+    {
+        height: 300px;
+        background:aqua;
+        margin: auto;
+        display: table;
+        display: flex;
+    }
+    .leftside
+    {
+        background: aqua;
+        border: 11px solid blue;
+        width: 45%;
+        text-align: center;
+        margin: 11px;
+        box-sizing: content-box;
+    }
+    .rightside
+    {
+        border: 11px solid aqua;
+        width: 45%;
+        text-align: center;
+        margin: 11px;
+        box-sizing: content-box;
+    }
+
+
+    </style>
+</head>
+
+<body>
+    <center>
+        <header>
+            <div class="box10" id="HOME" style="padding-right:0px; border: 2px solid red; 
+                float: right;">
+               <div class="button" id="Search"><button><a href="#Search">Search</a></button></div>
+            </div>
+            <div class="box8">
+                <div class="image-box"><img src="image/images (1).jpg" height="85px" width="95px" alt="">
+                </div>
+                <center><h2>Shri Sammed Shikharji TirthRaj Trust Jharkhand</h2>
+                </center>
+                <div class="space"><a href="#HOME">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#ABOUT">ABOUT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#Services">Services</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#Gallery">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#Contact us">Contact
+                    us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#Registration">Registration</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div></div>
+        </header>
+        </div>
+        <div class="animation1" id="ABOUT">
+            Welcome to Shikharji Jharkhand
+        </div>
+        <div class="Animation2">
+            <img src="image/download (1).jpg" class="animaimg1" height="200px" alt="">
+            <span> </span>
+            <img src="image/download (2).jpg" class="animaimg ease" height="200px" width="300px" alt="">
+
+            <span> </span>
+            <img src="image/download (3).jpg" class="animaimg easein" height="150px" width="200px" alt="">
+
+            <span> </span>
+            <img src="image/download.jpg" class="animaimg easeout" height="150px" width="150px" alt="">
+
+            <span> </span>
+            <img src="image/images (2).jpg" class="animaimg ease in-out" height="150px" width="200px" alt="">
+        </div>
+
+        <div class="bgimg1" id="Services">
+            <marquee behavior="" direction="" scrollamount="" width="">
+                <h1 class="text">Welcome To Sri Digamber Jain Shaswat Tirthraj Sammed Shikhar Trust</h1>
+            </marquee>
+        </div>
+        <div class="second">
+            <ol>
+                <li>Shri Sammed Shikharji TirthRaj Jharkhand.Girdih District</li>
+                <li>SidhChetra 27km pahadvandana </li>
+                <li>Shikharji,also Known as sammed or sammet Shikharji,</li>
+                <li>is one of the Holiest pilgrimage sites for jains,</li>
+                <li>in Girdih District,Jharkhand.</li>
+                <li>it is located on parasnath hil,</li>
+                <li>the highest mountain in the state of jharkhand.</li>
+                <li> Jain Mandir in Jharkhand</li>
+            </ol>
+            <ol>
+                <h1>Shikharji</h1>
+                <li>1 gunaytan Jain Mandir</li>
+                <li>Ajitnath Jain Mandir</li>
+                <li>terapanthi Jain Mandir</li>
+                <li>kaach mandir</li>
+            </ol>
+        </div>
+    
+<div class="boxlarge" id="Gallery">
+
+ <div class="leftside"> 
+<img src="image/download (1).jpg" alt="" height="45%" width="100%">
+    How much is Doli in Shikharji ?
+    <p>Charges for doli ranges from 4000 to 8000 depending on the weight of the weight of the pilgrim.Lots of stores selling biscuit,chips,colddrinks,lemonwater,sugar can juice,tea,coffee,is avilable at regular intervals.</p>
+</div>
+
+ <div class="leftside"> 
+<img src="image/download (2).jpg" alt="" height="45%" width="100%"><br><br>
+        Jharkhand Shikharji
+        Jain Mandir in Jharkhand
+        gunaytan Jain Mandir
+        Ajitnath Jain Mandir
+        Aadinath digamber Jain Mandir
+        terapanthi Jain Mandir
+        Bispanthi Jain Mandir
+</div>
+</div>
+<div class="leftside"> 
+    <img src="image/download (3).jpg" alt="" height="45%" width="100%">
+        Which god is in shikharji ?
+        <p>The hill is named after parshvanatha,the 23rd jain Tirthankar who got salvation this Connection there is jain pilgrimage shikharji on the top of hill.The hill also known as marang buru (lit.'great mountain',the supreme deity) by santhals and other autochthonous of the region in religion context.</p>
+    </div>
+<center> <div class="num1" id="Services"> <img src="image/fe5873b1d1dd56478dff641edb942cd1_th_1.jpeg" height="450px"width="500px" class="num2" alt="" ></div></center>
+        <div class="bgimg3" id="Contact us" > 
+            <center> <h1>Shikharji Trust Contact Us Urgent Room Booking And Emergency </h1></center></div>
+        <div class="bgimg4" id="Registration">
+            <form action="success.html" method="post">
+
+                Name: <input type="text" name="username" id="" placeholder="Enter Your Name" required">
+                <br><br>
+                mobile: <input type="tel" name="usermobile" id="" placeholder="Enter mobile No." required"><br><br>
+                email: <input type="email" name="usermail" id=""><br><br>
+                Age:<input type="number" name="userage" id=""><br><br>
+                <hr>
+                profile photo: <input type="file" name="userprofile" id=""><br><br>
+                date of birth: <input type="date" name="userdob" id="" required><br><br>
+                register time: <input type="time" name="userregtime" id=""><br><br>
+                check date & time: <input type="datetime-local" name="userdatetime" id=""><br><br>
+                <hr>
+                <gender: <input type="radio" name="gender" id="" value="male" required>male<input type="radio"
+                        name="gender" value="female" id="" required>female<br><br>
+                    select state <br>
+                    <select name="userstate" id="">
+                        <option value="MP">MP</option>
+                        <option value="MH">MH</option>
+                        <option value="GJ">GJ</option>
+                        <option value="UP">UP</option>
+                    </select><br><br>
+                    Message for admin <br>
+                    <textarea name="usermsg" id="" cols="50" rows="5"></textarea><br><br>
+                    <input type="checkbox" name="useragreeTC" id="" value="Yes i agree" required>i agree terms and
+                    conditions
+                    <input type="submit" value="Click for Register">&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" value="Click for Clear your Form">
+                    submit:<input type="checkbox" /><br><br>
+                    reset:<input type="Reset" name="userreset" id""><br><br>
+            </form>
+        </div>
+        <footer>
+                <div class="text8">
+                    <h4>Jain TirthRaj </h4>
+                    <b> <a class="text3" href="#Usefull link">useful link</a></b>
+                    <b><a class="text4" href="#Social network">Social network</a></b>
+                    <b><a class="text5" href="#Gallery">Gallery</a></b>
+                    <b><a class="text6" href="#Booking">Booking</a></b>
+                    <b><a class="text7" href="#About us.">About us</a></b><br><br>
+                </div>
+        </footer>
+    </center>
+</body>
+</html> 
